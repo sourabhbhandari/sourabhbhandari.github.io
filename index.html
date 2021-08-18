@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+<!-- Header Start -->
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+        </div>
+        <div class="col-6 pt-2">
+          <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link">Projects</a>
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header End -->
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hi there, I'm</h2>
+          <h1 class="text-warning m-heading">Sourabh Bhandari</h1>
+          <h3 class="text-white">Software Developer & Security Enthusiastic.</h3>
+          <a href="https://www.linkedin.com/in/sb5/" class="btn btn-outline-warning">Get In Touch</a>
+          <a href="https://drive.google.com/file/d/1WWnNfnVqOFJr42itxFfT4ukDJXFMuAEc/view?usp=sharing" class="btn btn-outline-warning">Download Resume</a>
+          
+        </div>
+        <div class="col-6">
+          <img src="./images/Hero.png" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">I'm Sourabh. </h1>
+          <p>
+            Currently I'm working at <b class="text-warning">HackerEarth Inc.</b>
+            I'm Passionate About <b>Software Developement, </b><b>Problem Solving, </b><b>Infrastructure Seurity</b> and <b>DevSecOps</b>.
+            
+            </p>
+            <p>
+            I’m looking to <b class="text-warning">collaborate on</b> <b> Competitive Programming, Bug Bounty and Secure Coding.</b>
+            </p>
+          <br />
+          <p>
+            I'm Geek by Nature and Foodie by Heart.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/121-work-from-home-1.png"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chat Application</h5>
+              <p class="card-text">
+                Chat App is Flask based Application which contains the functionality like Joining chat groups, Individual chat,files/Images sharing.
+                </p>
+                <p>
+                Tech Stack Used: Python, Flask, S3, Socket, Long Polling.
+              </p>
+              <a href="https://github.com/sourabhbhandari" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/day69-dotted-notebook.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">ToDo App with Auth</h5>
+              <p class="card-text">
+                ToDo app is Django Application which can be used to note daily office task. 
+              </p>
+              <p>
+                Tech Stack Used: Django, ReactJS, Django Rest Framework, Class Based Views.
+              </p>
+              <a href="https://github.com/sourabhbhandari/to-do-app-with-auth" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/day50-pirahna.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Docker Spinner</h5>
+              <p class="card-text">
+                Spinner is a Framework which spins the Docker Container on Users demand and returns the Unique URL and PORT.</p>
+                <p>Tech Stack Used: Python, Flask, S3, ECR, EC2, Docker.</p>
+              <a href="https://github.com/sourabhbhandari/BuildingAPIwithFlask" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/e_commerce_platform.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce App</h5>
+              <p class="card-text">
+                Project Contains the functionality like Custom User, Creation, Token based authentication, Product Category, Product Listing, Wishlist, Payment Gateway.
+              </p>
+              <p>
+                Tech Stack Used: Python, Django, MySQL, Django-rest-framework,S3.
+              </p>
+              <a href="https://github.com/sourabhbhandari/django-ecom" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/106-italy.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Music Player</h5>
+              <p class="card-text">
+                Collobrative Music player to control the playlist in the club house. Inspired from read problem and builded on friday Night.
+                Multiple users can add songs to the club list and control the music.
+              </p>
+              <p>
+                Tech Stack Used: Django, ReactJS.
+              </p>
+              <a href="https://github.com/sourabhbhandari" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/day93-programing.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Other Mini Projects</h5>
+              <p class="card-text">
+                I always learn a new technology or framework by creating some mini project around it.
+                Checkout my github profile for such amazing projects.
+              </p>
+              <p>
+                Tech Stack Used: C, C++, Java, Python, JavaScript, Docker.
+              </p>
+              <a href="https://github.com/sourabhbhandari" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h1 class="m-heading">Let's Connect</h1>
+        <div class="row pt-5">
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"><a href="https://www.linkedin.com/in/sb5/">LinkedIn</a></h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"><a href="https://github.com/sourabhbhandari">Github</a></h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"><a href="https://twitter.com/mr_bhandari16">Twitter</a></h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-twitter fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"><a href="mailto:bhandari.sourabh372@gmail.com">Email</a></h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Made with Love and tons of Code </>
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
